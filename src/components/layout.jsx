@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Layout } from "antd";
-import Material from "../content";
-import NavBar from "../navbar";
+import Material from "./content";
+import NavBar from "./navbar";
 
 import "antd/dist/antd.css";
 const { Sider, Content } = Layout;
