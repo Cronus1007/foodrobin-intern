@@ -11,11 +11,18 @@ const {
   DownOutlined,
 } = Icons;
 class NavBar extends Component {
+  clicked() {
+    console.log("clicked");
+  }
   render() {
     return (
       <React.Fragment>
         <div className="rectangle"></div>
-        <div className="active ml mt">
+        <div
+          onClick={this.clicked}
+          id="dashboard"
+          className="active activeClass ml mt"
+        >
           <LayoutFilled style={{ color: "white" }} className="logo" />
           <h1>Dashboard</h1>
         </div>
